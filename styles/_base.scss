@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+body {
+  background-image: url(./static/images/bgi-boule-magique.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  header {
+    h1 {
+      font-family: "Roboto";
+      color: rgb(236, 245, 252);
+      text-align: center;
+    }
+  }
+  main {
+    .boule {
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background-color: rgb(8, 7, 15);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    section {
+      width: 300px;
+      height: 60px;
+      border: 1px solid rgb(8, 7, 15);
+      padding: 10px;
+      background-color: rgb(236, 245, 252);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      p {
+        color: rgb(8, 7, 15);
+        font-family: "Roboto";
+        text-align: center;
+      }
+    }
+    form {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      input {
+        height: 40px;
+        width: 400px;
+        margin-right: 20px;
+        font-family: "Roboto";
+        background-color: rgb(236, 245, 252);
+        border: 1px solid rgb(8, 7, 15);
+      }
+      button {
+        font-family: "Roboto";
+        padding: 10px;
+        background-color: rgb(236, 245, 252);
+        color: rgb(8, 7, 15);
+        border: 1px solid rgb(8, 7, 15);
+      }
+    }
+  }
+}
